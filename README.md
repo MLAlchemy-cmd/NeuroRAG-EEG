@@ -1,4 +1,4 @@
-# RAER — Retrieval-Augmented EEG Reasoning for Explainable Seizure Detection
+# RAER - Retrieval-Augmented EEG Reasoning for Explainable Seizure Detection
 
 **Self-Supervised Learning · EEG Signal Processing · PyTorch · FAISS · LLMs**
 
