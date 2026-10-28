@@ -4,8 +4,6 @@
 
 RAER is a research prototype for **EEG-based seizure classification and explainability**. It combines contrastive representation learning, a lightweight classifier, similarity-based retrieval, and LLM-generated explanations to provide context alongside model predictions.
 
-Developed for **CSCI 5526: Machine Learning for Healthcare**, University of Minnesota (Fall 2025).
-
 ## Overview
 
 EEG seizure detection is challenging because seizure events are rare and physiological recordings vary substantially. RAER learns representations from unlabeled EEG segments, classifies seizure versus non-seizure windows, and retrieves similar historical windows to contextualize predictions.
@@ -63,14 +61,4 @@ The final project report describes a held-out **window-level validation** experi
 
 The accompanying notebook contains the research workflow and experimental visualizations. The `images/` directory contains figures exported from notebook outputs for README display.
 
-## Team and contributions
 
-Team project by **Sahitya Avadhanam, Rohan Cherukuri, and Ashmitha Ashokkumar**.
-
-- **Sahitya Avadhanam:** Model development and experimentation
-- **Rohan Cherukuri:** Manual evaluation and interpretability analysis
-- **Ashmitha Ashokkumar:** Data preprocessing and visualization
-
-## Research scope
-
-This is an academic research prototype, **not a clinically validated diagnostic system**. Further evaluation using independent patients and external datasets is needed before clinical use.
