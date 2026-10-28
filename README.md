@@ -31,19 +31,22 @@ The project uses a **nine-patient subset** of the [CHB-MIT Scalp EEG Database](h
 
 ### EEG embedding space (t-SNE)
 
-![t-SNE visualization of learned EEG embeddings](images/eeg_embeddings_tsne.png)
+<img width="755" height="568" alt="image" src="https://github.com/user-attachments/assets/c872b153-17f1-49c5-9314-4aa775cf7e36" />
+
 
 *A two-dimensional view of sampled learned EEG representations.*
 
 ### Classifier training
 
-![Classifier training and validation curves](images/classifier_training.png)
+<img width="1039" height="744" alt="image" src="https://github.com/user-attachments/assets/b122f87f-1a29-413c-a090-a831da280c75" />
 
 *Training diagnostics for the downstream seizure classifier.*
 
 ### Contrastive pretraining
 
-![Contrastive learning loss over training epochs](images/contrastive_pretraining_loss.png)
+<img width="1202" height="807" alt="image" src="https://github.com/user-attachments/assets/8f8244ab-597e-40d1-90a5-7232f1df7fbf" />
+
+
 
 *InfoNCE loss during self-supervised encoder training.*
 
@@ -60,5 +63,7 @@ The final project report describes a held-out **window-level validation** experi
 ## Repository
 
 The accompanying notebook contains the research workflow and experimental visualizations. The `images/` directory contains figures exported from notebook outputs for README display.
+<img width="1064" height="711" alt="image" src="https://github.com/user-attachments/assets/2c8f5825-fd4f-4f12-bca4-1cd335db8b47" />
+
 
 
